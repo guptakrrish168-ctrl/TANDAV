@@ -1,0 +1,6 @@
+{
+  "name": "TANDAV",
+  "description": "Wild, aggressive performance sports bikes engineered for Indian terrain, featuring a 360-degree interactive customizer, track-ride bookings, and a raw rider tribe community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
