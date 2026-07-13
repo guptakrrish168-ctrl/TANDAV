@@ -126,9 +126,11 @@ export default function BikesCatalog({ onConfigureClick, onBookClick }: BikesCat
                     <img
                       src={currentColor.imageUrls.side}
                       alt={`${bike.name} in ${currentColor.name}`}
-                      className="h-32 sm:h-40 w-auto object-contain z-10 drop-shadow-[0_15px_20px_rgba(0,0,0,0.6)] transform group-hover:scale-105 transition-transform duration-700"
+                      className="w-full h-full object-cover z-10 transform group-hover:scale-105 transition-transform duration-700"
                       referrerPolicy="no-referrer"
                     />
+                    {/* Dark gradient overlay to make text tags and swappers stand out beautifully */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-zinc-950/30 z-10 pointer-events-none" />
                     
                     {/* Floating Terrain Compatibility tags */}
                     <div className="absolute top-3 left-3 z-20 flex flex-wrap gap-1.5 max-w-[70%]">
